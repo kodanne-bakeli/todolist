@@ -1,0 +1,11 @@
+input[type=text] {
+    display:none;
+  }
+  
+  .editMode input[type=text] {
+    display:block;
+  }
+  
+  .editMode label {
+    display:none;
+  }
