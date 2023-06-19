@@ -1,11 +1,23 @@
-input[type=text] {
-    display:none;
-  }
-  
-  .editMode input[type=text] {
-    display:block;
-  }
-  
-  .editMode label {
-    display:none;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
+
+body {
+  background: blueviolet;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 300;
+}
+
+input[type=text],
+span.btn {
+  display: none;
+}
+
+.editMode input[type=text],
+.editMode span.btn {
+  display: block;
+}
+
+.editMode label {
+  display: none;
+
+}
